@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketsOps.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSingle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="loopThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcpSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcpServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Acceptor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipv4Address.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CevenSchedule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="poller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectPoller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcpConnection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RtspConnection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaSource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UsageEnvironment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TsHeader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TsParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TsFileMediaSource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpSink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Rtp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tsRtpSink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RtspServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaSession.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpInstance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reactor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketsOps.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="loopThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcpSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcpServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Acceptor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipv4Address.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CevenSchedule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="poller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectPoller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcpConnection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Def.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintLog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Guard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RtspConnection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UsageEnvironment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TsParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TsFileMediaSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tsRtpSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RtspServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaSession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
